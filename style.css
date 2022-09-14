@@ -1,0 +1,48 @@
+@font-face {
+    font-family: digital;
+    src: url(font/digital.ttf);
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+.main {
+    margin: 20px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.points-area {
+    background-color: #0f1111;
+    border: 1px solid black;
+    border-radius: 6px;
+} 
+
+.run {
+    color:red;
+    font-family: digital;
+    font-size: 50px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #9CA3AF;
+    font-family: digital;
+    margin-top: 20px;
+    border: 1px solid #9CA3AF;
+    border-radius: 2px;
+    font-size: large;
+}
+
+.btn:hover {
+    color: red;
+}
